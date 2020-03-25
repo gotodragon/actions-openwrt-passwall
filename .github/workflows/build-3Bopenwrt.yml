@@ -6,14 +6,14 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: 3B OpenWrt
 
 on:
   release:
     types: [published]
   push:
     branches:
-      - dev-master
+      - master
     paths:
       - '.config'
 #  schedule:
